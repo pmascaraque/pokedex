@@ -1,29 +1,28 @@
-## Installation
+This is a minimalistic front end app boilerplate made with [React](https://reactjs.org/)/[Next.js](https://nextjs.org/) on [typescript](https://www.typescriptlang.org/) and styled with [tailwindcss](https://tailwindcss.com/), so you can use it as a starting point for your own project.
+## Getting Started
 
-Install packages with [`npm`](https://www.npmjs.com/) or [`yarn`](https://yarnpkg.com/en/):
-
-
-  ```bash
-$ yarn build
-$ yarn start
-  ```
-  
-or
+To run the development server:
 
 ```bash
-$ npm install
+npm run dev
+# or
+yarn dev
 ```
 
-Then, start the project!
-  
-  ```bash
-$ yarn build
-$ yarn start
-  ```
-  
-or
+To build the production bundle:
 
-  ```bash
-$ npm build
-$ npm start
-  ```
+```bash
+npm run build
+# or
+yarn build
+```
+
+To run the production server:
+
+```bash
+npm run start
+# or
+yarn start
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
