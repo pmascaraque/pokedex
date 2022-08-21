@@ -12,8 +12,9 @@ or
 $ yarn install
 ```
 
-Start the project!
+Then, start the project!
   
   ```bash
+$ npm build
 $ npm start
   ```
