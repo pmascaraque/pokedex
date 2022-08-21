@@ -3,17 +3,26 @@
 Install packages with [`npm`](https://www.npmjs.com/) or [`yarn`](https://yarnpkg.com/en/):
 
 
-```bash	
-$ npm install 
-```
+  ```bash
+$ yarn build
+$ yarn start
+  ```
+  
 or
 
 ```bash
-$ yarn install
+$ npm install
 ```
 
 Then, start the project!
   
+  ```bash
+$ yarn build
+$ yarn start
+  ```
+  
+or
+
   ```bash
 $ npm build
 $ npm start
