@@ -1,10 +1,10 @@
 import React from "react";
+import { AiOutlineArrowUp as ArrowUp } from 'react-icons/ai';
 
 const AdvancedSearch: React.FC = () => {
   return (
-    <p>
-      Advanced Search Dropdown
-    </p>
+    <div className="h-20">Hide Advanced Search <ArrowUp /></div>
+
   );
 }
 

@@ -1,13 +1,13 @@
 import React from "react";
 
-const Header : React.FC = () => {
+const Header: React.FC = () => {
   return (
     <header>
       <p>
-          Pokédex
+        Pokédex
       </p>
     </header>
   );
 }
 
-export default Header;
+export default Header

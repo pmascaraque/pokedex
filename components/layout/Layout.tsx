@@ -6,7 +6,7 @@ type LayoutProps = {
   children: JSX.Element;
 };
 
-const Layout: React.FC<LayoutProps> = ({ children }: LayoutProps) : JSX.Element => {
+const Layout: React.FC<LayoutProps> = ({ children }: LayoutProps): JSX.Element => {
   return (
     <div>
       <Header />

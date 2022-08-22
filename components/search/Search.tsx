@@ -1,15 +1,17 @@
 import React from "react";
 import AdvancedSearch from './AdvancedSearch';
+import { AiOutlineArrowDown as ArrowDown } from 'react-icons/ai';
 
 const Search: React.FC = () => {
   const [toggle, setToggle] = React.useState(false);
 
   return (
-    <div>
-      Search
-
+    <div className="bg-slate-400">
+      <div>
+        <input type="text" placeholder="Search name or number.." className="border-2 border-slate-400" />
+      </div>
       <button onClick={() => setToggle(!toggle)} >
-        {toggle ? <AdvancedSearch /> : "show advanced search"}
+        {toggle ? <AdvancedSearch /> : <div>Show Advanced Search <ArrowDown /></div>}
       </button>
     </div>
   );

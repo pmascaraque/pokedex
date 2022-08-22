@@ -7,6 +7,7 @@ const Home: NextPage = () => {
     <Layout>
       <>
         <Search />
+        <p>hola polla</p>
       </>
     </Layout>
   )
