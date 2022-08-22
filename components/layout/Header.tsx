@@ -1,11 +1,13 @@
 import React from "react";
 
-export default function Header() {
+const Header : React.FC = () => {
   return (
-    <footer>
+    <header>
       <p>
-        Header
+          Pokédex
       </p>
-    </footer>
+    </header>
   );
 }
+
+export default Header;
