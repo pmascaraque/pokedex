@@ -2,7 +2,7 @@ import React from "react";
 import AdvancedSearch from './AdvancedSearch';
 import { AiOutlineArrowDown as ArrowDown } from 'react-icons/ai';
 
-const Search: React.FC = () => {
+const SearchBar: React.FC = () => {
   const [toggle, setToggle] = React.useState(false);
 
   return (
@@ -17,4 +17,4 @@ const Search: React.FC = () => {
   );
 }
 
-export default Search;
+export default SearchBar;
